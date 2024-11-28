@@ -22,4 +22,6 @@ java jdk1.8
 * mastery_knowledge_points.txt  知识点掌握状态数组，默认学生ID为0,1,...,n
 * ScoreRangeCalculator.java  计算不同分数段的人数分布
 * StudentGradeCalculator.java  计算优、良、中、差人数分布
-同时，其中的class_problem_sequence.txt是模型的输入数据，mastery_knowledge_points.txt是模型的输出数据
+
+
+-- 同时，其中的class_problem_sequence.txt是模型的输入数据，mastery_knowledge_points.txt是模型的输出数据
