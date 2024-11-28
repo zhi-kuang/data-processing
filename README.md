@@ -1,5 +1,12 @@
-# data-processing
+# 数据处理
+用于任务
+- 评估学生的学习兴趣和认知水平
+- 自动生成学情报告与分析
 
+## 使用技术
+java jdk1.8
+
+## 说明
 目前提供的数据，由于数据不完整，缺失一些必要的信息，所以数据处理过程中仍需要人为介入
 
 缺少：
@@ -15,3 +22,4 @@
 * mastery_knowledge_points.txt  知识点掌握状态数组，默认学生ID为0,1,...,n
 * ScoreRangeCalculator.java  计算不同分数段的人数分布
 * StudentGradeCalculator.java  计算优、良、中、差人数分布
+同时，其中的class_problem_sequence.txt是模型的输入数据，mastery_knowledge_points.txt是模型的输出数据
